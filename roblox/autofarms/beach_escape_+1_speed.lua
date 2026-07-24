@@ -9,6 +9,7 @@ local services = {
     game:GetService("RunService").RenderStepped,
 }
 
+-- THIS MAY BE UNSTABLE, COMMENT OUT IF NECESSARY! ⌄⌄⌄⌄
 for _, service in ipairs(services) do
     for _, conn in ipairs(getconnections(service)) do
         local func = conn.Function
@@ -21,6 +22,7 @@ for _, service in ipairs(services) do
         end
     end
 end
+-- THIS MAY BE UNSTABLE, COMMENT OUT IF NECESSARY! ^^^^
 
 print("[hageyexpress.lol] Bypassed Anti-Remote Spam. Starting Autofarm Now!")
 
