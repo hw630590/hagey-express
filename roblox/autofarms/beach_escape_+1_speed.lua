@@ -22,7 +22,7 @@ for _, service in ipairs(services) do
     end
 end
 
-print("[hageyexpress.lol] Bypassed Anti-Remote Spam. Started Autofarm Now!")
+print("[hageyexpress.lol] Bypassed Anti-Remote Spam. Starting Autofarm Now!")
 
 local duration = used and 0.01 or math.random(50, 80) / 1000
 
