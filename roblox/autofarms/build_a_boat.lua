@@ -50,11 +50,11 @@ local function FarmCycle()
         modelName = TeamModels[playerTeam.Name]
     end
     
-    Notify({Description="🛥️ Launching boat.", Title="Build A Boat Autofarmer", Duration=5})
+    Notify({Description="Launching boat.", Title="Build A Boat Autofarmer", Duration=5})
     
     repeat task.wait() workspace[modelName].VoteLaunchRE:FireServer() until workspace[modelName].Launched.Value == true
     
-    Notify({Description="✅ Launched boat, going to end.", Title="Build A Boat Autofarmer", Duration=5})
+    Notify({Description="Launched boat, going to end.", Title="Build A Boat Autofarmer", Duration=5})
     
     local TweenService = game:GetService("TweenService")
     local Players = game:GetService("Players")
@@ -90,18 +90,18 @@ local function FarmCycle()
         local stage = boatStages:WaitForChild(stageName)
         local darknessPart = stage:WaitForChild("DarknessPart")
         MoveTo(darknessPart.CFrame, hrp, TweenService)
-        Notify({Description="⏳ " .. i .. "/10...", Title="Build A Boat Autofarmer", Duration=2})
+        Notify({Description= i .. "/10...", Title="Build A Boat Autofarmer", Duration=2})
     end
     
     if not isFarming then return end
     
-    Notify({Description="🧰 Completed checkpoints, going to chest.", Title="Build A Boat Autofarmer", Duration=5})
+    Notify({Description="Completed checkpoints, going to chest.", Title="Build A Boat Autofarmer", Duration=5})
     MoveTo(CFrame.new(-113, 177, 8819), hrp, TweenService)
     MoveTo(CFrame.new(-55, -360, 9488), hrp, TweenService)
-    Notify({Description="✅ Triggered chest!", Title="Build A Boat Autofarmer", Duration=5})
+    Notify({Description="Triggered chest!", Title="Build A Boat Autofarmer", Duration=5})
     floor:Destroy()
     task.wait(30)
-    Notify({Description="💰 Restarting farm...", Title="Build A Boat Autofarmer", Duration=5})
+    Notify({Description="Restarting farm...", Title="Build A Boat Autofarmer", Duration=5})
     task.wait(3)
 end
 
@@ -123,7 +123,7 @@ local function StopFarm()
         task.cancel(farmThread)
         farmThread = nil
     end
-    Notify({Description="⏹️ Farming stopped.", Title="Build A Boat Autofarmer", Duration=5})
+    Notify({Description="Farming stopped.", Title="Build A Boat Autofarmer", Duration=5})
 end
 
 MainSection:NewDropdown("Farm Mode", "Choose movement method", {"Tween (Recommended)", "Teleport (Faster)"}, function(selected)
@@ -160,11 +160,11 @@ local modeLabel = StatusSection:NewLabel("Mode: Tween")
 task.spawn(function()
     while task.wait(0.5) do
         if farmToggle and isFarming then
-            statusLabel:UpdateLabel("Status: Farming Active 🔁")
+            statusLabel:UpdateLabel("Status: Farming Active")
         elseif farmToggle and not isFarming then
-            statusLabel:UpdateLabel("Status: Starting Farm... 🚀")
+            statusLabel:UpdateLabel("Status: Starting Farm...")
         else
-            statusLabel:UpdateLabel("Status: Idle ⏸️")
+            statusLabel:UpdateLabel("Status: Idle")
         end
         modeLabel:UpdateLabel("Mode: " .. farmMode)
     end
