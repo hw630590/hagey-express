@@ -1,0 +1,32 @@
+TEAM:QUESTION:YES:NO
+Housekeeping|Is your desk clean right now?:Great, I’ll come mess it up so I have something to do.:Perfect, then I don’t have to pretend I cleaned it.
+Housekeeping|Are you available for a quick cleanup?:Excellent, I’ll spill something immediately.:Awesome, I’ll save the mess for later.
+Housekeeping|Is your workspace dust‑free?:Amazing — I’ll send some dust your way to keep you busy.:Good, at least the dust feels at home.
+Housekeeping|Did everything stay spotless today?:Wonderful, I’ll try to ruin that record.:Great, consistency is key.
+Housekeeping|Are you ready to clean something?:Awesome, because I just made a mess by asking.:Perfect, I’ll go make one anyway.
+Front Desk|Are you good at answering questions?:Great, because I have 47 of them.:Perfect, I’ll lower it to 46.
+Front Desk|Is this the front desk?:Perfect, I’d like to report that I forgot why I called.:Great, then I’ll call back later and forget again.
+Front Desk|Are you available to help?:Awesome, because I have no idea what I’m doing.:Perfect, we’re confused together.
+Front Desk|Do you handle guest issues?:Fantastic, because I am the issue.:Great, then we’re both avoiding responsibility.
+Front Desk|Are you the person in charge?:Great, because I need someone to blame.:Perfect, I’ll blame whoever is in charge.
+Room Service|Do you deliver food?:Perfect, I’m starving emotionally and physically.:Great, I’ll just eat my feelings.
+Room Service|Is this room service?:Great, I’d like to order everything I can’t pronounce.:Perfect, I’ll mispronounce it anyway.
+Room Service|Do you handle food requests?:Awesome, because I need a snack and a life coach.:Great, I’ll just snack on my problems.
+Room Service|Are you taking orders right now?:Good, because I’m about to panic‑order.:Perfect, I’ll panic silently instead.
+Room Service|Do you bring food to the room?:Perfect, because my legs are on strike.:Great, I’ll negotiate with them later.
+Room Service|Is your refrigerator running?:Well then you better go catch it!:Then you better get it started before all the food goes moldy like you!
+Bridge Team|Are you keeping the ship on course today?:Perfect, because I’m about to emotionally drift off.:Great, then I’ll pretend this is a sightseeing detour.
+Bridge Team|Is the bridge running smoothly right now?:Awesome, I’ll come up and ruin the peace.:Perfect, I’ll blend in with the chaos.
+Bridge Team|Are you monitoring all the controls?:Great, because I’m about to press something suspicious.:Perfect, then nobody will notice if I press something anyway.
+Bridge Team|Is the ship stable at the moment?:Excellent, I’ll try not to emotionally capsize.:Great, then I’ll blame the waves for everything.
+Bridge Team|Are you ready for a status update?:Perfect, because I’m about to give you absolutely nothing useful.:Great, then we’re both unprepared together.
+Supervisor|Are you supervising anyone right now?:Perfect, because I need someone to supervise me immediately.:Great, then I’ll supervise myself badly.
+Supervisor|Are you busy managing things?:Excellent, I’m about to add myself to your problems.:Perfect, then I’ll be a problem later.
+Supervisor|Are you keeping everything under control?:Great, because I’m about to lose control emotionally.:Awesome, then we’re both spiraling professionally.
+Supervisor|Are you available for a quick update?:Perfect, because the update is that I forgot the update.:Great, then I’ll forget it too.
+Supervisor|Are you handling any issues right now?:Excellent, because I’m about to create a new one.:Perfect, I’ll save mine for when you’re least ready.
+Security|Are you keeping everything secure right now?:Perfect, because I’m about to emotionally break in.:Great, then nobody will notice when I sneak in anyway.
+Security|Are you monitoring the cameras?:Excellent, because I’m about to do something suspicious.:Perfect, then I’ll be suspicious for both of us.
+Security|Are you on patrol at the moment?:Great, because I need someone to escort my sanity back.:Awesome, then I’ll wander around unsupervised.
+Security|Are you handling any incidents today?:Perfect, because I’m about to become one.:Great, then I’ll schedule my incident for later.
+Security|Are you checking IDs right now?:Excellent, because I forgot who I am.:Perfect, then we’re both identity‑optional today.
